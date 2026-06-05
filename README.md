@@ -2,6 +2,8 @@
 
 A Gradle plugin that improves the experience when developing Android apps, especially system tools, that use hidden APIs.
 
+**This fork rolls back [!21](https://github.com/RikkaApps/HiddenApiRefinePlugin/pull/21) which breaks Robolectric tests.**
+
 ## Background
 
 When developing system tools, it's inevitable to use hidden APIs. There are two ways to use hidden APIs, the reflection way and the linking way. For some types of system tools, a large amount of hidden APIs is required, using the reflection way is too inconvenient. So the linking way is commonly used in those projects.
